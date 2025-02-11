@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Natflix.csproj": {}
+    "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Netflix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Natflix.csproj": {
+    "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Netflix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Natflix.csproj",
-        "projectName": "Natflix",
-        "projectPath": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Natflix.csproj",
+        "projectUniqueName": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Netflix.csproj",
+        "projectName": "Netflix",
+        "projectPath": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Netflix.csproj",
         "packagesPath": "C:\\Users\\elkhanmi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\obj\\",
         "projectStyle": "PackageReference",

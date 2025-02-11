@@ -1,11 +1,12 @@
-﻿namespace Natflix;
+﻿namespace Netflix;
 
-internal class Genre
+internal class Genre:BaseModel
 {
-    internal static int _id;
-    public int Id { get; set; }
+    public static int _id;
+    public Genre(string name)
+    {
+        Id = ++_id;
+        Name = name;
+    }
     public string Name { get; set; }
-    public List<Movie>? Movies { get; set; }
-
-     
 }

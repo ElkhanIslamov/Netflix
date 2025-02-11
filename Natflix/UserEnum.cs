@@ -1,4 +1,4 @@
-﻿namespace Natflix
+﻿namespace Netflix
 {
     internal enum UserEnum
     {

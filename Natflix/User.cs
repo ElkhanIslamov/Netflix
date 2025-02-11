@@ -1,8 +1,12 @@
-﻿namespace Natflix;
+﻿namespace Netflix;
 
-internal class User
+internal class User:BaseModel
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public int Age { get; set; }
+
+    public enum UserType
+    {
+        Admin = 1,
+        User
+
+    }
 }
