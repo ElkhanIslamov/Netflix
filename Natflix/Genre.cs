@@ -1,6 +1,6 @@
 ﻿namespace Netflix;
 
-internal class Genre:BaseModel
+public class Genre : BaseModel
 {
     public static int _id;
     public Genre(string name)
@@ -8,5 +8,6 @@ internal class Genre:BaseModel
         Id = ++_id;
         Name = name;
     }
+
     public string Name { get; set; }
 }

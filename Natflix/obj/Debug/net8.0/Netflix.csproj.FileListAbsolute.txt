@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Netflix\Natflix\bin\Debug\net8.0\Netflix.exe
+C:\Users\User\Desktop\Netflix\Natflix\bin\Debug\net8.0\Netflix.deps.json
+C:\Users\User\Desktop\Netflix\Natflix\bin\Debug\net8.0\Netflix.runtimeconfig.json
+C:\Users\User\Desktop\Netflix\Natflix\bin\Debug\net8.0\Netflix.dll
+C:\Users\User\Desktop\Netflix\Natflix\bin\Debug\net8.0\Netflix.pdb
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.AssemblyInfo.cs
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.sourcelink.json
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.dll
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\refint\Netflix.dll
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.pdb
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\Netflix.genruntimeconfig.cache
+C:\Users\User\Desktop\Netflix\Natflix\obj\Debug\net8.0\ref\Netflix.dll

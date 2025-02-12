@@ -1,8 +1,8 @@
 ﻿namespace Netflix
 {
-    internal enum UserEnum
+    public enum UserType
     {
-        Admin =1,
+        Admin = 1,
         User
     }
 
