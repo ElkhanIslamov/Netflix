@@ -10,8 +10,9 @@ internal class Program
         var dataContext = new DataContext();
         string username, password;
         User user;
-         do
+        do
         {
+
             Console.Write("Username:");
             username = Console.ReadLine();
 
@@ -19,6 +20,9 @@ internal class Program
             password = Console.ReadLine();
 
             user = dataContext.GetUser(username, password);
+
+
+            Console.WriteLine($" Welcome {username} to Netflix");
             dataContext.WatchMovie();
 
             Console.Write("Enter movie id:");
@@ -27,62 +31,39 @@ internal class Program
             var movie = dataContext.GetMovie(id);
             Console.WriteLine($"{movie.Name}");
 
-            if (movie.Name == "Undefined") return;
+            Console.WriteLine(new string('-', 80));
 
+            Console.Write("Enter command - genre - for filter genre: ");
             string command = Console.ReadLine();
-            if(command=="genre")
+            if (command == "genre")
             {
-                Console.WriteLine("Choose genre from list");
-                PrintHelper.PrintGenre(movie.Genre.Name);
+                dataContext.FilterMovie();
             }
 
-        } while (user.Name=="Undefined");
+            Console.Write("Enter name of film  for searching movie: ");
+            string search = Console.ReadLine();
+            if (movie.Name == search)
+            {
+                dataContext.SearchMovie(search);
+            }
+            //if (movie.Name == "Undefined") return;
+        } while (user.Name == "Undefined");
+        if (user.IsAdmin)
+        {
 
-        //if (user.IsAdmin)
-        //{
-        //    var admin = dataContext.GetAdmin(username,password);
-        //    Console.WriteLine($"Welcome {admin.Name}");
-
-            //var store = dataContext.GetStore(seller.StoreId);
-
-            //Console.WriteLine($"Store name:{store.Name}");
-            //PrintHelper.PrintProducts(store.Products);
-
-            //Console.WriteLine("Choose command,[add, remove]");
-
-            //string command = Console.ReadLine();
-
-            //if (command == "add")
-            //{
-            //    Console.Write("Enter the name:");
-            //    string name = Console.ReadLine();
-            //    Console.Write("Enter the price:");
-            //    decimal price = decimal.Parse(Console.ReadLine());
-
-            //    var product = new Product(name, price);
-            //    var products = new Product[store.Products.Length + 1];
-            //    products = [.. store.Products, product];
-            //    //for (int i = 0; i< store.Products.Length; i++)
-            //    //{
-            //    //    products[i] = store.Products[i];
-            //    //}
-            //    //products[products.Length - 1] = product;
-            //    store.Products = products;
-            //    PrintHelper.PrintProducts(store.Products);
-           // }
-
-            //Console.WriteLine("Add Movie");
-            //List<Movie> list = new List<Movie>();
-            //var movie = new Movie() { }
+            Console.WriteLine("Add Movie");
+            string add = Console.ReadLine();
+            //dataContext.AddMovie()
 
 
 
-            //Console.WriteLine($"List of movies:");
-            //PrintHelper.PrintMovies(DataContext.Movies);
+            Console.WriteLine($"List of movies:");
+            PrintHelper.PrintMovies(DataContext.Movies);
 
 
 
 
 
         }
+    }
 }

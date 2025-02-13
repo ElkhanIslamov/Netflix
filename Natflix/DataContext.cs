@@ -1,4 +1,6 @@
-﻿namespace Netflix
+﻿using System.Threading.Channels;
+
+namespace Netflix
 {
     internal class DataContext
     {
@@ -73,7 +75,9 @@
         }
         public void AddMovie(Movie movie)
         {
-            DataContext.Movies.Add(movie);
+            List<Movie> list = [];
+            list.Add(movie);
+            
         }
         public Movie GetMovie(int id)
         {
@@ -84,7 +88,6 @@
                 return item;
              }
             return new Movie("Id-ni duzgun daxil edin");
-
         }
         public Movie GetMovieByGenre(string genre)
         {
@@ -97,15 +100,30 @@
             return new Movie("Id-ni duzgun daxil edin");
         }
 
-
         public void  WatchMovie()
         {
-            Console.WriteLine("Choose movie from list");
+            Console.WriteLine(new string('-', 80));
             PrintHelper.PrintMovies(DataContext.Movies);
-
-
         }
-
+        public void FilterMovie()
+        {
+            Console.WriteLine(new string('-', 80));
+            Console.WriteLine($"{"Id",-5}{"Name",-30}");
+            PrintHelper.PrintGenre(DataContext.Genres);
+        }
+        public Movie SearchMovie(string name)
+        {
+            
+            foreach (var item in Movies)
+            {
+                if (item.Name == null) continue;
+                if (item.Name == name)
+                Console.WriteLine($"Filmin adi {item.Name}");
+                    
+            }
+            Console.WriteLine("Xosh izlemeler");
+            return new Movie("Filmin adini duzgun daxil edin");
+        }
 
 
 
