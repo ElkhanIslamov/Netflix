@@ -20,6 +20,18 @@ namespace Netflix
 
             Console.WriteLine(new string('-', 30));
         }
+        internal static void PrintGenre(List<Genre> genres)
+        {
+            foreach(Genre genre in genres )
+            {
+                if (genre == null) continue;
+
+                if (genre.Name == "Undefined") continue;
+                Console.WriteLine(genre.Name);
+            }
+            Console.WriteLine(new string('-', 30));
+
+        }
 
         internal static void PrintMovies(bool v)
         {

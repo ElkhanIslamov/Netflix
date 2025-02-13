@@ -11,8 +11,8 @@
             ];
             Users =
             [
-                new User("Elxan", "1234", UserType.User),
-                new User("Ali", "1234", UserType.User)
+                new User("Elxan", "1234", UserType.User,false),
+                new User("Ali", "1234", UserType.User,false)
             ];
             Genres =
             [
@@ -75,7 +75,36 @@
         {
             DataContext.Movies.Add(movie);
         }
+        public Movie GetMovie(int id)
+        {
+            foreach(var item in Movies)
+            {
+                if (item.Id == null) continue;
+                if (item.Id == id) 
+                return item;
+             }
+            return new Movie("Id-ni duzgun daxil edin");
 
+        }
+        public Movie GetMovieByGenre(string genre)
+        {
+            foreach (var item in Movies)
+            {
+                if (item.Genre == null) continue;
+                if (item.Genre.Name == genre )
+                    return item;
+            }
+            return new Movie("Id-ni duzgun daxil edin");
+        }
+
+
+        public void  WatchMovie()
+        {
+            Console.WriteLine("Choose movie from list");
+            PrintHelper.PrintMovies(DataContext.Movies);
+
+
+        }
 
 
 
