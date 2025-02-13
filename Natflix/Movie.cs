@@ -13,6 +13,7 @@ public class Movie:BaseModel
         TimeOfSession = timeOfSession;
         Genre = genre;
     }
+
     public string Name { get; set; }
     public double TimeOfSession { get; set; }
     public Genre Genre { get; set; }

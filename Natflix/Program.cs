@@ -50,20 +50,22 @@ internal class Program
         } while (user.Name == "Undefined");
         if (user.IsAdmin)
         {
+            Console.Write("Username:");
+            username = Console.ReadLine();
 
-            Console.WriteLine("Add Movie");
+            Console.Write("Password:");
+            password = Console.ReadLine();
+
+            user = dataContext.GetUser(username, password);
+
+            Console.WriteLine($" Welcome {username} to Netflix");
+           
+            Console.Write("Add Movie");
             string add = Console.ReadLine();
-            //dataContext.AddMovie()
-
-
+            dataContext.AddMovie(add);                         
 
             Console.WriteLine($"List of movies:");
             PrintHelper.PrintMovies(DataContext.Movies);
-
-
-
-
-
         }
     }
 }

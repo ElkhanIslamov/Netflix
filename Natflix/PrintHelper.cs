@@ -31,9 +31,6 @@ namespace Netflix
                 Console.WriteLine($"{genre.Id,-5} {genre.Name,-10}");
             }
             Console.WriteLine(new string('-', 80));
-        }
-       
-
-
+        }       
     }
 }

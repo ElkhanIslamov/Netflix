@@ -8,6 +8,5 @@ public class Genre : BaseModel
         Id = ++_id;
         Name = name;
     }
-
     public string Name { get; set; }
 }

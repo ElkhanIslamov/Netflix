@@ -5,5 +5,4 @@
         Admin = 1,
         User
     }
-
 }

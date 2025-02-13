@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Netflix\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\elkhanmi\\desktop\\netflix\\natflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\user\\desktop\\netflix\\natflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\elkhanmi\\desktop\\netflix\\natflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\user\\desktop\\netflix\\natflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\elkhanmi\\desktop\\netflix\\natflix\\printhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\user\\desktop\\netflix\\natflix\\printhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\printhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\elkhanmi\\desktop\\netflix\\natflix\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\user\\desktop\\netflix\\natflix\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|c:\\users\\user\\desktop\\netflix\\natflix\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3E54B5-1469-417B-9806-05555A5F35B1}|Natflix\\Netflix.csproj|solutionrelative:natflix\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Enum.cs",
-              "DocumentMoniker": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Enum.cs",
-              "RelativeDocumentMoniker": "Natflix\\Enum.cs",
-              "ToolTip": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Enum.cs",
-              "RelativeToolTip": "Natflix\\Enum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:15:56.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PrintHelper.cs",
-              "DocumentMoniker": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\PrintHelper.cs",
-              "RelativeDocumentMoniker": "Natflix\\PrintHelper.cs",
-              "ToolTip": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\PrintHelper.cs",
-              "RelativeToolTip": "Natflix\\PrintHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T10:23:44.814Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\DataContext.cs",
               "RelativeDocumentMoniker": "Natflix\\DataContext.cs",
-              "ToolTip": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\DataContext.cs",
               "RelativeToolTip": "Natflix\\DataContext.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAA4wE4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T12:00:40.651Z",
+              "WhenOpened": "2025-02-13T18:50:10.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Program.cs",
               "RelativeDocumentMoniker": "Natflix\\Program.cs",
-              "ToolTip": "C:\\Users\\elkhanmi\\Desktop\\Netflix\\Natflix\\Program.cs*",
-              "RelativeToolTip": "Natflix\\Program.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Program.cs",
+              "RelativeToolTip": "Natflix\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T07:39:05.823Z",
+              "WhenOpened": "2025-02-13T18:44:51.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\PrintHelper.cs",
+              "RelativeDocumentMoniker": "Natflix\\PrintHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\PrintHelper.cs",
+              "RelativeToolTip": "Natflix\\PrintHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:44:23.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Movie.cs",
+              "RelativeDocumentMoniker": "Natflix\\Movie.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Movie.cs",
+              "RelativeToolTip": "Natflix\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:43:57.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Genre.cs",
+              "RelativeDocumentMoniker": "Natflix\\Genre.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Netflix\\Natflix\\Genre.cs",
+              "RelativeToolTip": "Natflix\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:43:33.584Z",
               "EditorCaption": ""
             }
           ]

@@ -76,7 +76,10 @@ namespace Netflix
         public void AddMovie(Movie movie)
         {
             List<Movie> list = [];
-            list.Add(movie);
+            foreach (var item in Movies)
+            {
+                list.Add(item);
+            }
             
         }
         public Movie GetMovie(int id)
@@ -99,7 +102,6 @@ namespace Netflix
             }
             return new Movie("Id-ni duzgun daxil edin");
         }
-
         public void  WatchMovie()
         {
             Console.WriteLine(new string('-', 80));
@@ -113,20 +115,22 @@ namespace Netflix
         }
         public Movie SearchMovie(string name)
         {
-            
             foreach (var item in Movies)
             {
                 if (item.Name == null) continue;
                 if (item.Name == name)
-                Console.WriteLine($"Filmin adi {item.Name}");
-                    
+                Console.WriteLine($"Filmin adi {item.Name}");                  
             }
             Console.WriteLine("Xosh izlemeler");
             return new Movie("Filmin adini duzgun daxil edin");
         }
 
-
-
-
+        internal void AddMovie(string movie)
+        {
+            List<Movie> movies = new List<Movie>();
+            
+            movies.Add(DataContext.Movies[15]);
+            
+        }
     }
 }
